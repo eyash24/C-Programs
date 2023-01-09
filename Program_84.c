@@ -40,7 +40,7 @@ int main(){
             printf("%d\n",m);
         }
         printf("\n");
-        printf("break_:%d\n",break_)
+        printf("break_:%d\n",break_);
         if (break_ == 1){
             printf("Break only from inner loop.\n");
         }
@@ -51,7 +51,11 @@ int main(){
     1
     2
 
+    break_:0
     0
     1
+
+    break_:1
+    Break only from inner loop.
     */
 }
