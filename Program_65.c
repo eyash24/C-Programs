@@ -16,7 +16,7 @@ int main()
         printf("#");
         if(tally>6)
             continue;
-        printf("%d",tally);
+        printf("%d",tally); 
     }
     printf("\n");
     // output: #0#1#2#3#4#5#6###
